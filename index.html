@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Pizarrón Mágico de Venus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        /* ... estilos CSS omitidos por brevedad ... */
+    </style>
+</head>
+<body class="w-full h-screen flex flex-col items-center justify-center p-4 gap-4">
+
+    <h1 class="magic-title text-center">El Pizarrón Mágico de Venus</h1>
+
+    <!-- Contenedor del Canvas y Controles -->
+    <div class="w-full max-w-6xl flex flex-col lg:flex-row gap-4">
+        <!-- Panel de Controles -->
+        <!-- ... contenido omitido por brevedad ... -->
+        <!-- Canvas -->
+        <div class="flex-grow w-full h-[60vh] lg:h-auto">
+            <canvas id="drawing-canvas" class="w-full h-full bg-black bg-opacity-20"></canvas>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            // ... JavaScript del canvas ...
+        });
+    </script>
+</body>
+</html>
